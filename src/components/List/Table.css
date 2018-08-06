@@ -1,7 +1,10 @@
 thead {
-    color: #23527c;
+  color: #23527c;
 }
 /* tbody tr:hover {
     background: #23527c;
     color: white !important;
 } */
+tbody tr:hover {
+  background: #f0f0f0;
+}
