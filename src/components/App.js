@@ -4,11 +4,11 @@ import Header from './Header/Header'
 import List from './List/List'
 import CurrencyDetail from './CurrencyDetail/CurrencyDetail'
 
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import { HashRouter, Route, Switch, Link } from 'react-router-dom'
 
 const App = () => {
     return (
-      <Router>
+      <HashRouter>
         <Fragment>
           <Header />
           <Switch>
@@ -17,7 +17,7 @@ const App = () => {
             <Route component={NotFound} />
           </Switch>
         </Fragment>
-      </Router>
+      </HashRouter>
     )
 }
 
